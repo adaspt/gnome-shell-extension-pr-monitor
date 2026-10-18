@@ -1,0 +1,51 @@
+.pr-monitor-badge {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-left: 4px;
+  padding: 0 5px;
+  border-radius: 99px;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.pr-monitor-alert {
+  color: #f66151;
+}
+
+.pr-monitor-item-box {
+  spacing: 2px;
+}
+
+.pr-monitor-title {
+  max-width: 32em;
+}
+
+.pr-monitor-meta {
+  spacing: 10px;
+  font-size: 0.85em;
+}
+
+.pr-monitor-dim {
+  color: #9a9996;
+}
+
+.pr-monitor-ok {
+  color: #33d17a;
+}
+
+.pr-monitor-warn {
+  color: #ffa348;
+}
+
+.pr-monitor-bad {
+  color: #f66151;
+}
+
+.pr-monitor-footer-button {
+  padding: 6px;
+  margin-left: 4px;
+}
+
+.pr-monitor-row-button {
+  padding: 6px;
+  margin-left: 8px;
+}

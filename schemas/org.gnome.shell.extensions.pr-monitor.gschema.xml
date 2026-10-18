@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pr-monitor" path="/org/gnome/shell/extensions/pr-monitor/">
+    <key name="organization-url" type="s">
+      <default>""</default>
+      <summary>Organization URL</summary>
+      <description>For example https://dev.azure.com/my-org</description>
+    </key>
+    <key name="project" type="s">
+      <default>""</default>
+      <summary>Project name</summary>
+    </key>
+    <key name="poll-interval" type="u">
+      <range min="1" max="60"/>
+      <default>10</default>
+      <summary>Minutes between checks</summary>
+    </key>
+    <key name="token-changed" type="x">
+      <default>0</default>
+      <summary>Bumped by preferences when the token in the keyring changes</summary>
+    </key>
+  </schema>
+</schemalist>

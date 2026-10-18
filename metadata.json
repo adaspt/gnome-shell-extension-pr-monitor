@@ -1,0 +1,7 @@
+{
+  "name": "PR Monitor",
+  "description": "Azure DevOps pull request monitor",
+  "uuid": "pr-monitor@adaspt",
+  "settings-schema": "org.gnome.shell.extensions.pr-monitor",
+  "shell-version": ["50", "51"]
+}
